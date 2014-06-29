@@ -1,6 +1,8 @@
 cpitest2
 ========
 
+![cpitest2 screenshot](doc/assets/images/cpitest2.png)
+
 Simple experimental ripper tool, which can find and extract hidden files stored in an archive.
 
 cpitest2 has the following features.
