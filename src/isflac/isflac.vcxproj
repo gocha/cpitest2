@@ -64,6 +64,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(SolutionDir)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
@@ -81,6 +82,7 @@
       </PrecompiledHeader>
       <WarningLevel>Level3</WarningLevel>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <AdditionalIncludeDirectories>$(SolutionDir)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <IgnoreAllDefaultLibraries>false</IgnoreAllDefaultLibraries>
@@ -96,7 +98,7 @@
     <ClCompile Include="isflac.c" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="cncplug.h" />
+    <ClInclude Include="..\cncplug.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="winmem.h" />
   </ItemGroup>
